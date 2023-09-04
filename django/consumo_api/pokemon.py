@@ -1,5 +1,5 @@
 import requests 
-import json
+
 URL = "https://pokeapi.co/api/v2/generation/1/"
 req = requests.get(URL)
 
