@@ -9,8 +9,10 @@ class Nasa():
         with open(api_key_path,"r") as key_file:
             
             self.api_key = key_file.read().strip()
-            print(self.api_key)
-        self.URL = "https://api.nasa.gov/planetary/apod?api_key=ctFgKejXT8FkqABbyognWwbwIyFzaZglgT9orgbm"
+            
+        self.URL = f"https://api.nasa.gov/planetary/apod?api_key={self.api_key}"
+
+        
     
     def get_apod(self):
         response = requests.get(self.URL)
@@ -18,6 +20,6 @@ class Nasa():
 
 
     def get_apod_by_date(self,date):
-        url = f"{self.URL} + &date= + {date}"
+        url = f"{self.URL}&date={date}"
         response = requests.get(url)
         return response.json()
