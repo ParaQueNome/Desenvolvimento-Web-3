@@ -39,6 +39,7 @@ while option != 0:
         webbrowser.open("temp.html")
 
     print('[1] - Busca por data (formato: YYYY-MM-DD)')
+    print('[2] - APOD do dia')
     print('[0 - Sair]') 
     option = int(input("Escolha uma opção: "))
 
