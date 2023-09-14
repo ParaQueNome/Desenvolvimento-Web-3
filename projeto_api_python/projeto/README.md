@@ -25,6 +25,7 @@ Classe main: <br>
   <li>
     Abre um HTML temporário para mostrar a imagem e a explicação do evento astronomico
   </li>
-  
+  Exemplo: <br>
 </ul>
-![image](https://github.com/ParaQueNome/Desenvolvimento-Web-3/assets/86564645/9b425e9f-0cd0-4f0a-a9f4-c77f88f362d5)
+
+![example](https://github.com/ParaQueNome/Desenvolvimento-Web-3/assets/86564645/2a5eb334-eeb3-42a4-ac25-aaf00a8c7842)
