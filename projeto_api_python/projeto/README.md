@@ -13,4 +13,14 @@ Classe Nasa: <br>
   <li>
     Metodo que retorna as informações e imagens do dia (CURDATE)
   </li>
+</ul>[
+Classe main: <br>
+<ul>
+  <li>
+    Menu com loop while para selecionar o tipo de consulta
+  </li>
+  <li>
+    Instancia da classe Nasa para chamada do metodo selecionado pelo usuario
+  </li>
+  
 </ul>
