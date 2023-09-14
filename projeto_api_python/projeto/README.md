@@ -13,7 +13,7 @@ Classe Nasa: <br>
   <li>
     Metodo que retorna as informações e imagens do dia (CURDATE)
   </li>
-</ul>[
+</ul>
 Classe main: <br>
 <ul>
   <li>
